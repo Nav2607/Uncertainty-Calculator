@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uncertainty Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Uncertainty Calculator</h1>
+    <label for="value1">Value 1:</label>
+    <input type="text" id="value1" placeholder="Value">
+    <input type="text" id="uncertainty1" placeholder="Uncertainty"><br>
+
+    <label for="operator">Operator:</label>
+    <select id="operator">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+    </select><br>
+
+    <label for="value2">Value 2:</label>
+    <input type="text" id="value2" placeholder="Value">
+    <input type="text" id="uncertainty2" placeholder="Uncertainty"><br>
+
+    <button id="calcButton">Calculate</button>
+
+    <p id="result"></p>
+
+    <p id="author">Made by Navneet S</p>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
